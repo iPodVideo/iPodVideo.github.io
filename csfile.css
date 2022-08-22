@@ -5,6 +5,13 @@ img {
     margin-right: auto;
     transition: 2s;
 }
+.cursor {
+  border: var(--border-radius-medium) dashed #faafe1;
+    cursor: url('buttercat5-removebg-preview.png'), auto;
+    display: block;
+    height: var(--scale8);
+    padding: var(--scale1) var(--scale2);
+}
 img:hover {
     transform: rotate(0.5turn);
 }
@@ -12,7 +19,7 @@ div {
     text-align: center;
 }
 html {
-    font-family: 'Trebuchet MS', 'Montserrat';
+    font-family: 'Comic Sans MS', 'Trebuchet MS';
     background-color: #03071e;
     color: whitesmoke;
     text-align: center;
