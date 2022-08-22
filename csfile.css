@@ -1,0 +1,56 @@
+img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 2s;
+}
+img:hover {
+    transform: rotate(0.5turn);
+}
+div {
+    text-align: center;
+}
+html {
+    font-family: 'Trebuchet MS', 'Montserrat';
+    background-color: #03071e;
+    color: whitesmoke;
+    text-align: center;
+}
+button {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ffba08;
+    color: #ffba08;
+    width: 100px;
+    text-align: center;
+    border-width: 3px;
+    padding: 6px 12px;
+    background-color: #03071e;
+    transition: all 0.25s;
+}
+h2 {
+    text-align:center
+}
+button:hover {
+    border-color: #f1ff5c;
+    color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+span {
+    width: 80%;
+    height: 50%;
+    border-style: solid;
+    border-width: 3px;
+    background-image: url("https://techcrunch.com/wp-content/uploads/2019/06/FX_Design_Blog_Header-1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    font-size: 1cm;
+}
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
